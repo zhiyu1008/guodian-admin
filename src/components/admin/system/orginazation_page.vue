@@ -13,7 +13,6 @@
         <el-select
           v-model="value"
           class="m-2"
-          placeholder="请选择"
           size="large"
         >
           <el-option
@@ -29,7 +28,6 @@
         <el-select
           v-model="value"
           class="m-2"
-          placeholder="请选择"
           size="large"
         >
           <el-option
@@ -45,7 +43,6 @@
         <el-select
           v-model="value"
           class="m-2"
-          placeholder="请选择"
           size="large"
         >
           <el-option
@@ -61,7 +58,6 @@
         <el-select
           v-model="value"
           class="m-2"
-          placeholder="请选择"
           size="large"
         >
           <el-option
@@ -77,7 +73,6 @@
         <el-select
           v-model="value"
           class="m-2"
-          placeholder="请选择"
           size="large"
         >
           <el-option

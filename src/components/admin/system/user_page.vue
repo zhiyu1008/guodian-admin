@@ -357,7 +357,7 @@ const tableData = [
     justify-content: flex-end;
     font-size:14px;
     .el-input {
-      width: 7em;
+      width: 50%;
       height:20px;
       display: flex;
       justify-content: center;
