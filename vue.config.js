@@ -15,5 +15,14 @@ module.exports = defineConfig({
     },
   transpileDependencies: true,
   publicPath:'./',
-	lintOnSave:false
+	lintOnSave:false,
+	css: {
+    // 全局配置 utils.scs，详细配置参考 vue-cli 官网
+    loaderOptions: {
+      sass: {
+        // prependData: `@import "@/styles/utils.scss";`,
+        additionalData: `@use "@/styles/utils.scss" as * ;`
+      },
+    },
+  }
 })

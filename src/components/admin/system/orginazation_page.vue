@@ -89,7 +89,7 @@
         v-model="input1"
         class="w-50 m-2"
         size="large"
-        placeholder="输入关键搜索"
+        placeholder="输入关键词搜索"
         :suffix-icon="Search"
       />
       <div class="searchbutton">搜索</div>
@@ -281,47 +281,56 @@ const tableData = [
     }
     .button1 {
       background: #1f4ca7;
-
+      border:1px dashed #333;
       color: #fff;
     }
     .button2 {
       color: #000;
-      border: 1px solid #000;
+      border:1px dashed #333;
     }
   }
 }
 .top {
-  margin-top: 0.5em;
   width: 100%;
   font-size: 22px;
   line-height: 3em;
   display: flex;
+  box-sizing: border-box;
+  padding-left:30px;
   .select {
     margin-left: 1.5em;
     ::v-deep .el-input {
-      width:160px !important;
+      width:190px !important;
+      height:35px;
+      border:1px dashed #333;
     }
   }
 }
 .table {
   width: 95%;
+  .el-table{
+    height: 291px;
+  }
 }
 .search {
-  margin-top: 1em;
+  margin: 1.5em 0 0 60px;
   display: flex;
   height: 2em;
   justify-content: flex-start;
   width: 100%;
   .el-input {
-    width: 15.1em;
+    width: 18em;
     font-size: 16px;
     height: 2em;
+    outline:none;
     margin-left: 2em;
+    border:1px dashed #333;
   }
   .searchbutton {
     margin-left:30px;
     cursor: pointer;
     background: #1f4ca7;
+    border:1px dashed #333;
     font-size: 16px;
     height: 2em;
     width: 4em;
@@ -335,7 +344,7 @@ const tableData = [
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3em;
+  margin-top: 1em;
   padding-left: 4%;
   .block {
     margin-top: -1px;
@@ -390,6 +399,6 @@ const tableData = [
 
 
 .table{
-  margin-top: 2em;
+  margin-top: 2em
 }
 </style>

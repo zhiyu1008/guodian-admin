@@ -79,7 +79,7 @@ const clickEven = (val) => {
     }
     .page {
       width: 95.86%;
-      height: 79.41vh;
+      // height: 79.41vh;
       background-color: #fff;
       margin-top: 2em;
       position: relative;

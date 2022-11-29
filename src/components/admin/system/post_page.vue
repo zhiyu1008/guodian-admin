@@ -17,7 +17,6 @@
         </template>
       </el-table-column>
     </el-table>
-    <!-- 分页器 -->
     <el-pagination
       v-model:current-page="currentPage4"
       v-model:page-size="pageSize4"
@@ -59,4 +58,5 @@ const tableData = [
 </script>
 
 <style lang="scss" scoped>
+
 </style>

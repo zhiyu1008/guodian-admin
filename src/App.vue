@@ -12,7 +12,7 @@ const bodyScale=()=>{
   var scaleY = deviceheight / 848; // 除以设计稿的尺寸
   document.body.style.zoom = scaleY; // 放大缩小相应倍数
 }
-bodyScale()
+// bodyScale()
 </script>
 
 <style lang="scss">
